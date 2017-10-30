@@ -4,7 +4,112 @@
  *
  * Site Styles
  *****************************************************************************/
+html {
+  padding: 0;
+}
+body {
+  margin: 0;
+  background-color: #00b8e6;
+	color: white;
+}
 
- html {
-     color: green;
- }
+header {
+  min-height: 400px;
+  background-image: url('../img/official_header.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+	border: 10px solid  white;
+}
+
+}
+header.subtitile {
+ text-align:center;
+  
+}
+
+.main nav{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    diplay: inline block
+}
+#social {
+  background:  #00b8e6;
+  position:absolute;
+  top: 20px;
+  right: 0;
+  width: 25px;
+  transition: 2s width;
+	 border: 1.5px solid white;
+  
+}
+#social:hover {
+  width: 250px;
+}
+#social ul {
+  list-style-type: none;
+  padding: 0;
+	display:inline;
+	width: 80px;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 5px;
+	margin: 5px;
+	color: #47d147;
+}
+#social li {
+  margin: 0;
+  padding: 0;
+}
+nav ul li  {
+		display:flex;
+		width: 80px;
+		text-align: center;
+		text-decoration: none;
+		padding: 5px 5px;
+		margin: 5px;
+		color: #47d147;
+		background-color:#00b8e6 ;
+		border-top-left- radius: 30px;
+		border-top-rigt-radius: 30px;
+    border: 1.5px solid white;
+		}
+
+#headshot  {
+	width: 100px;
+  float: center;
+  background: black;
+  margin: 10px;
+  padding: 10px; 
+  border: 2px solid white;
+	display: inline;
+	list-style-type: none;
+}
+
+#watch {
+	border: 10px solid  white;
+}
+#listen {
+	border: 10px solid  white;
+}
+#about {
+	border: 10px solid  white;
+}
+
+footer {
+	border: 10px solid  white;
+}
+.download-button {
+    border: 1px solid black;
+	  background: white;
+	  color: #00b8e6;
+	  padding: 2px;
+	margin-top: 1px;
+}
+
+
+
+
+
+
